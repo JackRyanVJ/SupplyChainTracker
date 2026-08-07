@@ -41,6 +41,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { href: '/dashboard/exceptions', label: 'Status Exceptions', icon: AlertTriangle, badge: exceptionCount, badgeColor: 'bg-rose-100 text-rose-700 font-semibold' },
     { href: '/dashboard/logistics', label: 'Logistics Overview', icon: BarChart3 },
     { href: '/scanner', label: 'Mobile Barcode Scanner', icon: QrCode, badgeColor: 'bg-orange-100 text-orange-700 font-bold' },
+    { href: '/admin-Supply%20Chain%20Management%20App', label: 'Supabase Admin', icon: Boxes, badgeColor: 'bg-emerald-100 text-emerald-800 font-bold' },
   ];
 
   return (
